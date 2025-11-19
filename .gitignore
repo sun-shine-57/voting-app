@@ -31,3 +31,50 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+
+
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+poll-app/dist
+/poll-app/tmp
+/poll-app/out-tsc
+/poll-app/bazel-out
+
+# Node
+poll-app/node_modules
+poll-app/npm-debug.log
+poll-app/yarn-error.log
+
+# IDEs and editors
+poll-app/.idea/
+poll-app/.project
+poll-app/.classpath
+poll-app/.c9/
+poll-app/*.launch
+poll-app/.settings/
+poll-app/*.sublime-workspace
+
+# Visual Studio Code
+poll-app/.vscode/*
+poll-app/!.vscode/settings.json
+poll-app/!.vscode/tasks.json
+poll-app/!.vscode/launch.json
+poll-app/!.vscode/extensions.json
+poll-app/.history/*
+
+# Miscellaneous
+poll-app/.angular/cache
+poll-app/.sass-cache/
+poll-app/connect.lock
+poll-app/coverage
+poll-app/libpeerconnection.log
+poll-app/testem.log
+poll-app/typings
+poll-app/__screenshots__/
+
+# System files
+poll-app/.DS_Store
+poll-app/Thumbs.db
